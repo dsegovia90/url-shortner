@@ -2,7 +2,7 @@ var express = require('express')
 var app = express()
 
 var mongo = require('mongodb').MongoClient
-var url = 'mongodb://localhost:27017/my_database_name'
+var url = process.env.MONGOLAB_URI
 
 var PORT = process.env.PORT || 3000;
 
