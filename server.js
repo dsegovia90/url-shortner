@@ -29,7 +29,7 @@ app.get('/:id', function(req, res) {
 			})
 
 		}
-		db.close()
+		// db.close()
 	})	
 })
 
